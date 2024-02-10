@@ -1,11 +1,4 @@
-# I wrote this to easily decode BeaverScratch for myself for the game Shipwrecked64.
-# I don't recommend the approach I took here for how to code "WELL-MADE" shift cipher decoders.
-# Most basic ciphers use modulus in some respect, however it seemed like BeaverScratch was different
-# as my approaches didn't work, so I brute forced the codex you see below.
-
-# Obviously there are way better ways to code this, and I simply hard coded the codex to just have a quick tool.
-# But hopefully for those wishing to understand more about cryptography this gives you insight.
-
+# Copyright © Anri Amane
 # This is the main cipher shift codex used by the script.
 beaverScratchCodex = {
     'J': 'I',
